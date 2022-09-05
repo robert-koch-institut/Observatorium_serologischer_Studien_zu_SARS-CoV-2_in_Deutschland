@@ -47,6 +47,11 @@
 	"access_right": "open",
 	"license": "cc-by",
 	"language": "deu",
+    "communities": [
+    {
+      "identifier": "robertkochinstitut"
+    }
+    ],
 	"subjects": [{
 			"term": "Gesundheitsberichterstattung",
 			"identifier": "info:ddc/22/de//614.42"
