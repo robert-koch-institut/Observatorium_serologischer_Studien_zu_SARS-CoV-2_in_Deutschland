@@ -1,0 +1,256 @@
+{
+  "fields": [
+    {
+      "name": "title",
+      "type": "string"
+    },
+    {
+      "name": "scope_regionality",
+      "type": "string"
+    },
+    {
+      "name": "region",
+      "type": "string"
+    },
+    {
+      "name": "location_1",
+      "type": "string"
+    },
+    {
+      "name": "location_2",
+      "type": "string"
+    },
+    {
+      "name": "location_3",
+      "type": "string"
+    },
+    {
+      "name": "location_4",
+      "type": "string"
+    },
+    {
+      "name": "location_5",
+      "type": "string"
+    },
+    {
+      "name": "location_6",
+      "type": "any"
+    },
+    {
+      "name": "location_raw",
+      "type": "string"
+    },
+    {
+      "name": "organisation_1",
+      "type": "string"
+    },
+    {
+      "name": "organisation_2",
+      "type": "string"
+    },
+    {
+      "name": "organisation_3",
+      "type": "string"
+    },
+    {
+      "name": "organisation_4",
+      "type": "string"
+    },
+    {
+      "name": "organisation_5",
+      "type": "string"
+    },
+    {
+      "name": "organisation_6",
+      "type": "string"
+    },
+    {
+      "name": "organisation_7",
+      "type": "string"
+    },
+    {
+      "name": "organisation_8",
+      "type": "any"
+    },
+    {
+      "name": "organisation_raw",
+      "type": "string"
+    },
+    {
+      "name": "registry_url",
+      "type": "string"
+    },
+    {
+      "name": "information_url",
+      "type": "string"
+    },
+    {
+      "name": "type",
+      "type": "string"
+    },
+    {
+      "name": "subject_frame",
+      "type": "string"
+    },
+    {
+      "name": "subject_information",
+      "type": "string"
+    },
+    {
+      "name": "scope_population",
+      "type": "string"
+    },
+    {
+      "name": "scope_age",
+      "type": "string"
+    },
+    {
+      "name": "age_max",
+      "type": "integer"
+    },
+    {
+      "name": "age_min",
+      "type": "integer"
+    },
+    {
+      "name": "sample_design",
+      "type": "string"
+    },
+    {
+      "name": "sample_analysis_unit",
+      "type": "string"
+    },
+    {
+      "name": "sample_size_rounded",
+      "type": "integer"
+    },
+    {
+      "name": "start_date",
+      "type": "date"
+    },
+    {
+      "name": "end_date",
+      "type": "date"
+    },
+    {
+      "name": "resource_url_1",
+      "type": "string"
+    },
+    {
+      "name": "resource_url_2",
+      "type": "string"
+    },
+    {
+      "name": "resource_url_3",
+      "type": "string"
+    },
+    {
+      "name": "resource_url_4",
+      "type": "string"
+    },
+    {
+      "name": "resource_url_5",
+      "type": "any"
+    },
+    {
+      "name": "results_seroprevalence_information",
+      "type": "string"
+    },
+    {
+      "name": "results_publication_url",
+      "type": "string"
+    },
+    {
+      "name": "results_publication_date",
+      "type": "date"
+    },
+    {
+      "name": "results_publication_type",
+      "type": "string"
+    },
+    {
+      "name": "analysis_data_source",
+      "type": "string"
+    },
+    {
+      "name": "analysis_target",
+      "type": "string"
+    },
+    {
+      "name": "analysis_isotype",
+      "type": "string"
+    },
+    {
+      "name": "analysis_test",
+      "type": "string"
+    },
+    {
+      "name": "analysis_test_manufacturer_1",
+      "type": "string"
+    },
+    {
+      "name": "analysis_test_manufacturer_2",
+      "type": "string"
+    },
+    {
+      "name": "analysis_test_manufacturer_3",
+      "type": "string"
+    },
+    {
+      "name": "analysis_test_manufacturer_4",
+      "type": "string"
+    },
+    {
+      "name": "analysis_test_manufacturer_5",
+      "type": "string"
+    },
+    {
+      "name": "analysis_test_manufacturer_6",
+      "type": "string"
+    },
+    {
+      "name": "analysis_test_manufacturer_7",
+      "type": "string"
+    },
+    {
+      "name": "analysis_test_manufacturer_raw",
+      "type": "string"
+    },
+    {
+      "name": "results_seroprevalence_adjustment",
+      "type": "string"
+    },
+    {
+      "name": "results_seroprevalence_sensitivity",
+      "type": "number"
+    },
+    {
+      "name": "results_seroprevalence_specificity",
+      "type": "number"
+    },
+    {
+      "name": "results_seroprevalence_positive",
+      "type": "number"
+    },
+    {
+      "name": "results_seroprevalence_positive_95pct_lower",
+      "type": "number"
+    },
+    {
+      "name": "results_seroprevalence_positive_95pct_upper",
+      "type": "number"
+    },
+    {
+      "name": "record_created",
+      "type": "date"
+    },
+    {
+      "name": "record_modified",
+      "type": "date"
+    },
+    {
+      "name": "results_underreporting",
+      "type": "number"
+    }
+  ]
+}
