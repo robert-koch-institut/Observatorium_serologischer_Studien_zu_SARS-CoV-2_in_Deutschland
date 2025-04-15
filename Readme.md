@@ -33,9 +33,9 @@ Die Ergebnisse des Projektes SERO-OBS-Corona werden auf der Webseite www.rki.de/
 
 ### Administrative und organisatorische Angaben
 
-Im Projekt „Observatorium serologischer Studien zu SARS-CoV-2 in Deutschland" (SERO-OBS Corona) wirken verschiedene Fachgebiete der [Abteilung 2 | Epidemiologie und Gesundheitsmonitoring](https://www.rki.de/DE/Content/Institut/OrgEinheiten/Abt2/abt2_node) und [Abteilung 3 | Infektionsepidemiologie](https://www.rki.de/DE/Content/Institut/OrgEinheiten/Abt3/abt3_node.html) des Robert Koch-Instituts mit. Wir bedanken uns bei dem Team von SeroTracker ([serotracker.com](serotracker.com)) der Universität Calgary für hilfreiche Diskussionen und Beiträge zur Operationalisierung der Studiendatenbank sowie für die initiale Programmierung der interaktiven Graphiken.
+Im Projekt „Observatorium serologischer Studien zu SARS-CoV-2 in Deutschland" (SERO-OBS Corona) wirken verschiedene Fachgebiete der [Abteilung 2 | Epidemiologie und Gesundheitsmonitoring](https://www.rki.de/DE/Institut/Organisation/Abteilungen/Abteilung-2/abt2-epidemiologie-und-gesundheitsmonitoring-node.html) und [Abteilung 3 | Infektionsepidemiologie](https://www.rki.de/DE/Institut/Organisation/Abteilungen/Abteilung-3/abt3-infektionsepidemiologie-node.html) des Robert Koch-Instituts mit. Wir bedanken uns bei dem Team von SeroTracker ([serotracker.com](serotracker.com)) der Universität Calgary für hilfreiche Diskussionen und Beiträge zur Operationalisierung der Studiendatenbank sowie für die initiale Programmierung der interaktiven Graphiken.
 
-Inhaltliche Fragen bezüglich der Datenextraktion können direkt an das Team des Projektes SERO-OBS-Corona unter [COVID19_AK@rki.de](mailto:COVID19_AK@rki.de) gestellt werden. Die Veröffentlichung der Daten sowie das Qualitätsmanagement der (Meta-)Daten erfolgen durch das Fachgebiet [MF 4 | Forschungsdaten- und Infromationsmanagement](https://www.rki.de/DE/Content/Institut/OrgEinheiten/MFI/MF4/mf4_node.html). Fragen zum Datenmanagement und zur Publikationsinfrastruktur können an das Open Data Team des Fachgebiets MF4 unter [OpenData@rki.de](mailto:OpenData@rki.de) gerichtet werden.
+Inhaltliche Fragen bezüglich der Datenextraktion können direkt an das Team des Projektes SERO-OBS-Corona unter [COVID19_AK@rki.de](mailto:COVID19_AK@rki.de) gestellt werden. Die Veröffentlichung der Daten sowie das Qualitätsmanagement der (Meta-)Daten erfolgen durch das Fachgebiet [MF 4 | Forschungsdaten- und Infromationsmanagement](https://www.rki.de/DE/Institut/Organisation/Abteilungen/MFI/MF4/mf4-fach-und-forschungsdatenmanagement-node.html). Fragen zum Datenmanagement und zur Publikationsinfrastruktur können an das Open Data Team des Fachgebiets MF4 unter [OpenData@rki.de](mailto:OpenData@rki.de) gerichtet werden.
 
 Das Projekt „Observatorium serologischer Studien zu SARS-CoV-2 in Deutschland (SERO-OBS Corona)“ wird durch das Bundesministerium für Gesundheit gefördert.
 
@@ -167,27 +167,62 @@ Die Daten der Studie sind im Datensatz als kommaseparierte .csv Datei enthalten.
 - Zeichensatz: UTF-8
 - .csv Trennzeichen: Komma &quot;,&quot;
 
-### Metadaten
-Zur Erhöhung der Auffindbarkeit, sind die bereitgestellten Daten mit Metadaten beschrieben. Über GitHub Actions werden Metadaten an die entsprechenden Plattformen verteilt. Für jede Plattform existiert eine spezifische Metadatendatei, diese sind im Metadaten-Ordner hinterlegt:
 
-> [Metadaten/](/Metadaten/)  
+<!-- FOOTER_START: {"lang": "de"} -->
 
-Versionierung und DOI-Vergabe erfolgt über [Zenodo.org](https://zenodo.org). Die für den Import in Zenodo bereitgestellten Metadaten sind in der [zenodo.json](/Metadaten/zenodo.json) hinterlegt. Die Dokumentation der einzelnen Metadatenvariablen ist unter https://developers.zenodo.org/#representation nachlesbar.   
 
-> [Metadaten/zenodo.json](/Metadaten/zenodo.json)  
 
-### Konexinformationen
+### Metadaten  
 
-## Hinweise zur Nachnutzung der Daten
+Zur Erhöhung der Auffindbarkeit sind die bereitgestellten Daten mit Metadaten beschrieben. Über GitHub Actions werden Metadaten an die entsprechenden Plattformen verteilt. Für jede Plattform existiert eine spezifische Metadatendatei, diese sind im Metadatenordner hinterlegt:  
 
-Offene Forschungsdaten des RKI werden auf [GitHub.com](http://GitHub.com/), [Zenodo.org](http://Zenodo.org/) und [Edoc.rki.de](http://Edoc.rki.de/) bereitgestellt:
+> [Metadaten/](https://github.com/robert-koch-institut/Observatorium_serologischer_Studien_zu_SARS-CoV-2_in_Deutschland/tree/main/Metadaten/) 
 
-- [https://github.com/robert-koch-institut](https://github.com/robert-koch-institut)
-- [https://zenodo.org/communities/robertkochinstitut](https://zenodo.org/communities/robertkochinstitut)
-- [https://edoc.rki.de](https://edoc.rki.de/)
+Versionierung und DOI-Vergabe erfolgt über [Zenodo.org](https://zenodo.org). Die für den Import in Zenodo bereitgestellten Metadaten sind in der [zenodo.json](https://github.com/robert-koch-institut/Observatorium_serologischer_Studien_zu_SARS-CoV-2_in_Deutschland/blob/main/Metadaten/zenodo.json) hinterlegt. Die Dokumentation der einzelnen Metadatenvariablen ist unter https://developers.zenodo.org/#representation nachlesbar.
+ 
+> [Metadaten/zenodo.json](https://github.com/robert-koch-institut/Observatorium_serologischer_Studien_zu_SARS-CoV-2_in_Deutschland/blob/main/Metadaten/zenodo.json)  
 
-### Lizenz
+In der zenodo.json ist neben dem Publikationsdatum (`"publication_date"`) auch der Datenstand in folgendem Format enthalten (Beispiel):  
 
-Der Datensatz &quot;Observatorium serologischer Studien zu SARS-CoV-2 in Deutschland&quot; ist lizenziert unter der [Creative Commons Namensnennung 4.0 International Public License |](https://creativecommons.org/licenses/by/4.0/deed.de)[CC-BY 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/legalcode.de).
+```
+  "dates": [
+    {
+      "start": "2023-09-11T15:00:21+02:00",
+      "end": "2023-09-11T15:00:21+02:00",
+      "type": "Collected",
+      "description": "Date when the Dataset was created"
+    }
+  ],
+```    
 
-Die im Datensatz bereitgestellten Daten sind, unter Bedingung der Namensnennung des Robert Koch-Instituts als Quelle, frei verfügbar. Das bedeutet, jede Person hat das Recht die Daten zu verarbeiten und zu verändern, Derivate des Datensatzes zu erstellen und sie für kommerzielle und nicht kommerzielle Zwecke zu nutzen. Weitere Informationen zur Lizenz finden sich in der [LICENSE](https://github.com/robert-koch-institut/SARS-CoV-2_Infektionen_in_Deutschland/blob/master/LICENSE) bzw. [LIZENZ](https://github.com/robert-koch-institut/SARS-CoV-2_Infektionen_in_Deutschland/blob/master/LIZENZ) Datei des Datensatzes.
+
+Zusätzlich beschreiben wir tabellarische Daten mithilfe des [Data Package Standards](https://datapackage.org/).
+Ein Data Package ist eine strukturierte Sammlung von Daten und zugehörigen Metadaten, die den Austausch und die Wiederverwendung von Daten erleichtert. Es besteht aus einer datapackage.json-Datei, die zentrale Informationen wie die enthaltenen Ressourcen, ihre Formate und Schema-Definitionen beschreibt.
+
+Der Data Package Standard wird von der [Open Knowledge Foundation](https://okfn.org/) bereitgestellt und ist ein offenes Format, das eine einfache, maschinenlesbare Beschreibung von Datensätzen ermöglicht.
+
+Die Liste der in diesem Repository enthaltenen Daten ist in folgender Datei hinterlegt:
+
+> [datapackage.json](https://github.com/robert-koch-institut/Observatorium_serologischer_Studien_zu_SARS-CoV-2_in_Deutschland/tree/main/datapackage.json)
+
+Für tabellarische Daten definieren wir zusätzlich ein [Table Schema](https://datapackage.org/standard/table-schema/), das die Struktur der Tabellen beschreibt, einschließlich Spaltennamen, Datentypen und Validierungsregeln. Diese Schema-Dateien finden sich unter:
+
+> [Metadaten/schemas/](https://github.com/robert-koch-institut/Observatorium_serologischer_Studien_zu_SARS-CoV-2_in_Deutschland/tree/main/Metadaten/schemas) 
+
+
+
+## Hinweise zur Nachnutzung der Daten  
+
+Offene Forschungsdaten des RKI werden auf [Zenodo.org](http://Zenodo.org/), [GitHub.com](http://GitHub.com/), [OpenCoDE](https://gitlab.opencode.de) und [Edoc.rki.de](http://Edoc.rki.de/) bereitgestellt:  
+
+- https://zenodo.org/communities/robertkochinstitut  
+- https://github.com/robert-koch-institut  
+- https://gitlab.opencode.de/robert-koch-institut  
+- https://edoc.rki.de/  
+ 
+### Lizenz  
+
+Der Datensatz "Observatorium serologischer Studien zu SARS-CoV-2 in Deutschland" ist lizenziert unter der [Creative Commons Namensnennung 4.0 International Public License | CC-BY 4.0 International](https://creativecommons.org/licenses/by/4.0/deed.de).  
+
+Die im Datensatz bereitgestellten Daten sind, unter Bedingung der Namensnennung des Robert Koch-Instituts als Quelle, frei verfügbar. Das bedeutet, jede Person hat das Recht die Daten zu verarbeiten und zu verändern, Derivate des Datensatzes zu erstellen und sie für kommerzielle und nicht kommerzielle Zwecke zu nutzen. Weitere Informationen zur Lizenz finden sich in der [LICENSE](https://github.com/robert-koch-institut/Observatorium_serologischer_Studien_zu_SARS-CoV-2_in_Deutschland/blob/main/LICENSE) bzw. [LIZENZ](https://github.com/robert-koch-institut/Observatorium_serologischer_Studien_zu_SARS-CoV-2_in_Deutschland/blob/main/LIZENZ) Datei des Datensatzes.  
+<!-- FOOTER_END -->
