@@ -1,31 +1,57 @@
-Datensatzdokumentation
+<!-- HEADER_START: {"lang": "en"} -->
+
+
+Documentation  
 # Observatory of serological studies on SARS-CoV-2 in Germany
 
-Robert Koch Institute | [RKI](https://ror.org/01k5qnb77)  
-Nordufer 20  
-13353 Berlin  
+<br> 
+<br> 
+<br> 
 
-**Unit 25 | Physical Health**  
-[Hannelore Neuhauser](https://orcid.org/0000-0002-6605-6221) (Project management)  
-Christina Poethko-Müller  
-Giselle Sarganas Margolis  
-Roma Thamm  
+[**Hannelore Neuhauser**](https://orcid.org/0000-0002-6605-6221)&sup1;, [**Nina Buttmann-Schweiger**](https://orcid.org/0000-0001-6946-635X)&sup1;, **Julia Fiebig**&sup1;, **Christina Poethko-Müller**&sup1;, **Franziska Prütz**&sup1;, **Giselle Sarganas Margolis**&sup1;, **Roma Thamm**&sup1;, & [**Marlow Zimmermann**](https://orcid.org/0000-0002-9249-9077)&sup1;
 
-**Unit 34 | HIV/AIDS and other sexually or blood-borne infections**  
-[Marlow Zimmermann](https://orcid.org/0000-0002-9249-9077)  
+<br> 
 
-**Unit 24 | Health Reporting**  
-Franziska Prütz  
+**Contributors**   
+[Hannes Wünsche](https://orcid.org/0000-0002-8837-0326)&sup1;, & [Knut Perseke](https://orcid.org/0000-0002-2818-3641)&sup1;
 
-**ZfKD | Centre for Cancer Registry Data**  
-[Nina Buttmann-Schweiger](https://orcid.org/0000-0001-6946-635X)  
-Julia Fiebig  
+&emsp;&emsp;&sup1; Robert Koch Institute
+
+<br> 
+
+**Cite**  
+Neuhauser, H., Buttmann-Schweiger, N., Fiebig, J., Poethko-Müller, C., Prütz, F., Sarganas Margolis, G., Thamm, R., & Zimmermann, M. (2022). Observatory of serological studies on SARS-CoV-2 in Germany [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.7043025](https://doi.org/10.5281/zenodo.7043025)
 
 
-Neuhauser H, Buttmann-Schweiger N, Fiebig J, Poethko-Mülle C, Prütz F, Sarganas Margolis G, Thamm R and Zimmermann M (2022): Observatory of serological studies on SARS-CoV-2 in Germany, Berlin: Zenodo. DOI:[10.5281/zenodo.7043025](https://www.doi.org/10.5281/zenodo.7043025).
+<br>
+
+**Abstract**    
+The project "Observatory of serological studies on SARS-CoV-2 in Germany" of the Robert Koch Institute aimed to systematically collect, evaluate and make available seroepidemiological studies on SARS-CoV-2 seroprevalence in Germany from spring 2020 to autumn 2022. Through continuous research in scientific databases, study registries and media sources, relevant studies are identified, their results were extracted and centrally documented. The data set includes structured information on study designs, populations, survey periods, antibody tests, seroprevalence rates and underreporting factors. It thus enables a comparative analysis of SARS-CoV-2 infection in different population groups and time periods.The results are used, among other things, to estimate the number of unreported cases and the prevalence adjusted for test quality.
+
+<br>
+
+**Table of Content**
+<!-- TOC_START: {"heading_depth": 2} -->
+  - [Information on the research project and context of origin](#information-on-the-research-project-and-context-of-origin)
+  - [Content and structure of the research project](#content-and-structure-of-the-research-project)
+  - [Content and structure of the data set](#content-and-structure-of-the-data-set)
+  - [Guidelines for reuse of the data](#guidelines-for-reuse-of-the-data)
+<!-- TOC_END -->
+
+<br>
+<!-- HEADER_END -->
+
+<br>
+
+---
 
 
-## Content and structure of the research project
+[**--- die deutsche Version finden Sie hier ---**](https://github.com/robert-koch-institut/Observatorium_serologischer_Studien_zu_SARS-CoV-2_in_Deutschland/blob/main/Readme.md)
+
+<br>
+
+
+## Information on the research project and context of origin
 
 The infectious disease COVID-19, caused by the novel SARS-CoV-2 virus, which has emerged since 2019, led to public health and societal challenges. In order to be able to take appropriate measures to contain the pandemic and to gain new insights into the pandemic, there is an increased need for research on COVID-19. One starting point for this is using blood samples obtained from both infected and uninfected individuals, which are tested for antibodies to the SARS-CoV-2 virus. They provide information on the proportion of the population that has already been infected with SARS-CoV-2, including unrecognized infections (under-reporting).
 
@@ -35,8 +61,8 @@ The results of the SERO-OBS-Corona project are available and regularly updated o
 
 ### Administrative and organizational details
 
-In the project "Observatory of serological studies on SARS-CoV-2 in Germany" (SERO-OBS Corona), different Units of the [Department 2 | Epidemiology and Health Monitoring](https://www.rki.de/DE/Content/Institut/OrgEinheiten/Abt2/abt2_node) and [Department 3 | Infectious Disease Epidemiology](https://www.rki.de/DE/Content/Institut/OrgEinheiten/Abt3/abt3_node.html) of the Robert Koch Institute are involved. We thank the SeroTracker ([serotracker.com](serotracker.com)) team at the University of Calgary for helpful discussions and contributions to the operationalization of the study database and for initial programming of the interactive graphics.
-Questions regarding the content of the data extraction can be addressed directly to the SERO-OBS-Corona project team at [COVID19_AK@rki.de](mailto:COVID19_AK@rki.de). The publication of the data as well as the quality management of the (meta-)data is done by the department [MF 4 | Research Data and Infromation Management](https://www.rki.de/DE/Content/Institut/OrgEinheiten/MFI/MF4/mf4_node.html). Questions regarding data management and the publication infrastructure can be directed to the Open Data Team of the Department MF4 at [OpenData@rki.de](mailto:OpenData@rki.de).
+In the project "Observatory of serological studies on SARS-CoV-2 in Germany" (SERO-OBS Corona), different Units of the [Department 2 | Epidemiology and Health Monitoring](https://www.rki.de/abt2) and [Department 3 | Infectious Disease Epidemiology](https://www.rki.de/abt3) of the Robert Koch Institute are involved. We thank the SeroTracker ([serotracker.com](serotracker.com)) team at the University of Calgary for helpful discussions and contributions to the operationalization of the study database and for initial programming of the interactive graphics.
+Questions regarding the content of the data extraction can be addressed directly to the SERO-OBS-Corona project team at [COVID19_AK@rki.de](mailto:COVID19_AK@rki.de). The publication of the data as well as the quality management of the (meta-)data is done by the department [MF 4 | Research Data and Information Management](https://www.rki.de/mf4). Questions regarding data management and the publication infrastructure can be directed to the Open Data Team of the Department MF4 at [OpenData@rki.de](mailto:OpenData@rki.de).
 
 The project "Observatory of serological studies on SARS-CoV-2 in Germany" (SERO-OBS Corona) is funded by the German Ministry of Health.
 
@@ -159,34 +185,58 @@ The data set contains the following variables and their characteristics:
 | record_modified | Date | `YYYY-MM-DD`| Date on which an already existing result was adapted (e.g. peer-reviewed full publication instead of preprint). |
 
 
-#### Data fromating
+#### Data formatting
 
 The data of the study are contained in the dataset as a comma-separated .csv file. The character set used in the .csv file is UTF-8. The separator of the individual values is a comma ",".
 
 - Character set: UTF-8
 - .csv separator: Comma ","
 
+
+<!-- FOOTER_START: {"lang": "en"} -->
+
+
 ### Metadata
 
-To increase findability, the provided data is described with metadata. Metadata is distributed to the corresponding platforms via GitHub Actions. A specific metadata file exists for each platform and is stored in the metadata folder: 
+To increase findability, the provided data are described with metadata. The Metadata are distributed to the relevant platforms via GitHub Actions. There is a specific metadata file for each platform; these are stored in the metadata folder:
 
-> [Metadaten/](/Metadaten/)  
+> [Metadaten/](https://github.com/robert-koch-institut/Observatorium_serologischer_Studien_zu_SARS-CoV-2_in_Deutschland/tree/main/Metadaten/)
 
-Versioning and DOI assignment is done via [Zenodo.org](https://zenodo.org). The metadata provided for import into Zenodo is stored in [zenodo.json](/metadata/zenodo.json). Documentation of the individual metadata variables can be found at https://developers.zenodo.org/#representation.
+Versioning and DOI assignment are performed via [Zenodo.org](https://zenodo.org). The metadata prepared for import into Zenodo are stored in the [zenodo.json](https://github.com/robert-koch-institut/Observatorium_serologischer_Studien_zu_SARS-CoV-2_in_Deutschland/blob/main/Metadaten/zenodo.json). Documentation of the individual metadata variables can be found at https://developers.zenodo.org/representation.
 
-> [Metadaten/zenodo.json](/Metadaten/zenodo.json)  
+> [Metadaten/zenodo.json](https://github.com/robert-koch-institut/Observatorium_serologischer_Studien_zu_SARS-CoV-2_in_Deutschland/blob/main/Metadaten/zenodo.json)
+
+The zenodo.json includes the publication date and the date of the data status in the following format (example):
+```
+  "publication_date": "2024-06-19",
+  "dates": [
+    {
+      "start": "2023-09-11T15:00:21+02:00",
+      "end": "2023-09-11T15:00:21+02:00",
+      "type": "Collected",
+      "description": "Date when the dataset was created"
+    }
+  ],
+```
 
 
-## Notes on the subsequent use of the dataen
 
-Open research data of the RKI are made available on [GitHub.com](http://GitHub.com/), [Zenodo.org](http://Zenodo.org/) und [Edoc.rki.de](http://Edoc.rki.de/):
 
-- [https://github.com/robert-koch-institut](https://github.com/robert-koch-institut)
-- [https://zenodo.org/communities/robertkochinstitut](https://zenodo.org/communities/robertkochinstitut)
-- [https://edoc.rki.de](https://edoc.rki.de/)
+## Guidelines for reuse of the data
+
+Open data from the RKI are available on [Zenodo.org](http://Zenodo.org/), [GitHub.com](http://GitHub.com/), [OpenCoDE](https://gitlab.opencode.de), and [Edoc.rki.de](http://Edoc.rki.de/):
+
+- https://zenodo.org/communities/robertkochinstitut
+- https://github.com/robert-koch-institut
+- https://gitlab.opencode.de/robert-koch-institut
+- https://edoc.rki.de/
 
 ### License
 
-The dataset "Observatory of serological studies on SARS-CoV-2 in Germany" is licensed under the [Creative Commons Attribution 4.0 International Public License | CC-BY 4.0 International](https://creativecommons.org/licenses/by/4.0/deed.en)
+The "Observatory of serological studies on SARS-CoV-2 in Germany" dataset is licensed under the [Creative Commons Attribution 4.0 International Public License | CC-BY](https://creativecommons.org/licenses/by/4.0/deed.en).
 
-The data provided in the data set are freely available under the condition that the Robert Koch Institute is credited as the source. This means that any person has the right to process and to modify the data, to create derivatives of the data set and to use them for commercial or non-commercial purposes. Further information on the license can be found in the [LICENSE](https://github.com/robert-koch-institut/SARS-CoV-2_Infektionen_in_Deutschland/blob/master/LICENSE) file of the data set.
+The data provided in the dataset are freely available, with the condition of attributing the Robert Koch Institute as the source, for anyone to process and modify, create derivatives of the dataset and use them for commercial and non-commercial purposes.      
+Further information about the license can be found in the [LICENSE](https://github.com/robert-koch-institut/Observatorium_serologischer_Studien_zu_SARS-CoV-2_in_Deutschland/blob/main/LICENSE) or [LIZENZ](https://github.com/robert-koch-institut/Observatorium_serologischer_Studien_zu_SARS-CoV-2_in_Deutschland/blob/main/LIZENZ) file of the dataset.
+
+
+<!-- FOOTER_END -->
