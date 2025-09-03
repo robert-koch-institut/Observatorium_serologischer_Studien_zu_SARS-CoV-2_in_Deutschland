@@ -1,27 +1,60 @@
-Datensatzdokumentation
+<!-- HEADER_START: {"lang": "de"} -->
+
+
+Dokumentation  
 # Observatorium serologischer Studien zu SARS-CoV-2 in Deutschland
 
-Robert Koch-Institut | [RKI](https://ror.org/01k5qnb77)  
-Nordufer 20  
-13353 Berlin  
+<br> 
+<br> 
+<br> 
 
-**Fachgebiet 25 | Körperliche Gesundheit**  
-[Hannelore Neuhauser](https://orcid.org/0000-0002-6605-6221) (Projektleitung)  
-Christina Poethko-Müller  
-Giselle Sarganas Margolis  
-Roma Thamm  
+[**Hannelore Neuhauser**](https://orcid.org/0000-0002-6605-6221)&sup1;, **Christina Poethko-Müller**&sup1;, **Giselle Sarganas Margolis**&sup1;, **Roma Thamm**&sup1;, [**Marlow Zimmermann**](https://orcid.org/0000-0002-9249-9077)&sup2;, **Franziska Prütz**&sup3;, [**Nina Buttmann-Schweiger**](https://orcid.org/0000-0001-6946-635X)&#8308;, & **Julia Fiebig**&#8308;
 
-**Fachgebiet 34 | HIV/AIDS und andere sexuell oder durch Blut übertragbare Infektionen**  
-[Marlow Zimmermann](https://orcid.org/0000-0002-9249-9077)  
+<br> 
 
-**Fachgebiet 24 | Gesundheitsberichterstattung**  
-Franziska Prütz  
+**Beitragende**   
+[Hannes Wünsche](https://orcid.org/0000-0002-8837-0326)&#8309;, & [Knut Perseke](https://orcid.org/0000-0002-2818-3641)&#8310;
 
-**ZfKD | Zentrum für Krebsregisterdaten**  
-[Nina Buttmann-Schweiger](https://orcid.org/0000-0001-6946-635X)  
-Julia Fiebig  
+&emsp;&emsp;&sup1; [Robert Koch-Institut](https://www.rki.de/) | [Fachgebiet 25](https://www.rki.de/fg25)  
+&emsp;&emsp;&sup2; [Robert Koch-Institut](https://www.rki.de/) | [Fachgebiet 34](https://www.rki.de/fg34)  
+&emsp;&emsp;&sup3; [Robert Koch-Institut](https://www.rki.de/) | [Fachgebiet 24](https://www.rki.de/fg24)  
+&emsp;&emsp;&#8308; [Robert Koch-Institut](https://www.rki.de/) | [ZfKD - Zentrum für Krebsregisterdaten](https://www.krebsdaten.de/)  
+&emsp;&emsp;&#8309; [Robert Koch-Institut](https://www.rki.de/) | [Fachgebiet MF 4](https://www.rki.de/mf4)  
+&emsp;&emsp;&#8310; [Robert Koch-Institut](https://www.rki.de/) | [Fachgebiet IT 4](https://www.rki.de/it4)
 
-Neuhauser H, Buttmann-Schweiger N, Fiebig J, Poethko-Mülle C, Prütz F, Sarganas Margolis G, Thamm R und Zimmermann M (2022):: Observatorium serologischer Studien zu SARS-CoV-2 in Deutschland, Berlin: Zenodo. [DOI: 10.5281/zenodo.7043025](https://www.doi.org/10.5281/zenodo.7043025).
+<br> 
+
+**Zitieren**  
+Neuhauser, H., Poethko-Müller, C., Sarganas Margolis, G., Thamm, R., Zimmermann, M., Prütz, F., Buttmann-Schweiger, N., & Fiebig, J. (2022). Observatorium serologischer Studien zu SARS-CoV-2 in Deutschland [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.7043025](https://doi.org/10.5281/zenodo.7043025)
+
+<br>
+
+
+**Zusammenfassung**    
+Das Projekt "Observatorium serologischer Studien zu SARS-CoV-2 in Deutschland" des Robert Koch-Instituts zielte auf die systematische Erfassung, Auswertung und Bereitstellung von seroepidemiologischen Studien zur SARS-CoV-2-Seroprävalenz in Deutschland ab dem Frühjahr 2020 bis Herbst 2022. Durch kontinuierliche Recherche in wissenschaftlichen Datenbanken, Studienregistern und Medienquellen wurden relevante Studien identifiziert, ihre Ergebnisse extrahiert und zentral dokumentiert. Der Datensatz umfasst strukturierte Informationen zu Studiendesigns, Populationen, Erhebungszeiträumen, Antikörpertests, Seroprävalenzraten sowie Untererfassungsfaktoren. Er ermöglicht somit eine vergleichende Analyse der SARS-CoV-2-Durchseuchung in verschiedenen Bevölkerungsgruppen und Zeiträumen. Die Ergebnisse dienen u. a. der Einschätzung von Dunkelziffern und der Testgüte-bereinigten Prävalenz. 
+
+<br>
+
+**Inhaltsverzeichnis** 
+<!-- TOC_START: {"heading_depth": 2} -->
+  - [Informationen zum Datensatz und zum Entstehungskontext](#informationen-zum-datensatz-und-zum-entstehungskontext)
+  - [Inhalt und Aufbau des Forschungsprojekts](#inhalt-und-aufbau-des-forschungsprojekts)
+  - [Inhalt und Aufbau des Datensatzes](#inhalt-und-aufbau-des-datensatzes)
+  - [Hinweise zur Nachnutzung der Daten](#hinweise-zur-nachnutzung-der-daten)
+<!-- TOC_END -->
+
+<br>
+
+<!-- HEADER_END -->
+
+<br>
+
+---
+
+[**--- please find the English version here ---**](https://github.com/robert-koch-institut/Observatorium_serologischer_Studien_zu_SARS-CoV-2_in_Deutschland/blob/main/Readme.en.md)
+
+<br>
+
 
 ## Informationen zum Datensatz und zum Entstehungskontext
 
@@ -33,9 +66,9 @@ Die Ergebnisse des Projektes SERO-OBS-Corona werden auf der Webseite www.rki.de/
 
 ### Administrative und organisatorische Angaben
 
-Im Projekt „Observatorium serologischer Studien zu SARS-CoV-2 in Deutschland" (SERO-OBS Corona) wirken verschiedene Fachgebiete der [Abteilung 2 | Epidemiologie und Gesundheitsmonitoring](https://www.rki.de/DE/Institut/Organisation/Abteilungen/Abteilung-2/abt2-epidemiologie-und-gesundheitsmonitoring-node.html) und [Abteilung 3 | Infektionsepidemiologie](https://www.rki.de/DE/Institut/Organisation/Abteilungen/Abteilung-3/abt3-infektionsepidemiologie-node.html) des Robert Koch-Instituts mit. Wir bedanken uns bei dem Team von SeroTracker ([serotracker.com](serotracker.com)) der Universität Calgary für hilfreiche Diskussionen und Beiträge zur Operationalisierung der Studiendatenbank sowie für die initiale Programmierung der interaktiven Graphiken.
+Im Projekt „Observatorium serologischer Studien zu SARS-CoV-2 in Deutschland" (SERO-OBS Corona) wirken verschiedene Fachgebiete der [Abteilung 2 | Epidemiologie und Gesundheitsmonitoring](https://www.rki.de/abt2) und [Abteilung 3 | Infektionsepidemiologie](https://www.rki.de/abt3) des Robert Koch-Instituts mit. Wir bedanken uns bei dem Team von SeroTracker ([serotracker.com](serotracker.com)) der Universität Calgary für hilfreiche Diskussionen und Beiträge zur Operationalisierung der Studiendatenbank sowie für die initiale Programmierung der interaktiven Graphiken.
 
-Inhaltliche Fragen bezüglich der Datenextraktion können direkt an das Team des Projektes SERO-OBS-Corona unter [COVID19_AK@rki.de](mailto:COVID19_AK@rki.de) gestellt werden. Die Veröffentlichung der Daten sowie das Qualitätsmanagement der (Meta-)Daten erfolgen durch das Fachgebiet [MF 4 | Forschungsdaten- und Infromationsmanagement](https://www.rki.de/DE/Institut/Organisation/Abteilungen/MFI/MF4/mf4-fach-und-forschungsdatenmanagement-node.html). Fragen zum Datenmanagement und zur Publikationsinfrastruktur können an das Open Data Team des Fachgebiets MF4 unter [OpenData@rki.de](mailto:OpenData@rki.de) gerichtet werden.
+Inhaltliche Fragen bezüglich der Datenextraktion können direkt an das Team des Projektes SERO-OBS-Corona unter [COVID19_AK@rki.de](mailto:COVID19_AK@rki.de) gestellt werden. Die Veröffentlichung der Daten sowie das Qualitätsmanagement der (Meta-)Daten erfolgen durch das Fachgebiet [MF 4 | Forschungsdaten- und Infromationsmanagement](https://www.rki.de/mf4). Fragen zum Datenmanagement und zur Publikationsinfrastruktur können an das Open Data Team des Fachgebiets MF4 unter [OpenData@rki.de](mailto:OpenData@rki.de) gerichtet werden.
 
 Das Projekt „Observatorium serologischer Studien zu SARS-CoV-2 in Deutschland (SERO-OBS Corona)“ wird durch das Bundesministerium für Gesundheit gefördert.
 
@@ -195,19 +228,6 @@ In der zenodo.json ist neben dem Publikationsdatum (`"publication_date"`) auch d
   ],
 ```    
 
-
-Zusätzlich beschreiben wir tabellarische Daten mithilfe des [Data Package Standards](https://datapackage.org/).
-Ein Data Package ist eine strukturierte Sammlung von Daten und zugehörigen Metadaten, die den Austausch und die Wiederverwendung von Daten erleichtert. Es besteht aus einer datapackage.json-Datei, die zentrale Informationen wie die enthaltenen Ressourcen, ihre Formate und Schema-Definitionen beschreibt.
-
-Der Data Package Standard wird von der [Open Knowledge Foundation](https://okfn.org/) bereitgestellt und ist ein offenes Format, das eine einfache, maschinenlesbare Beschreibung von Datensätzen ermöglicht.
-
-Die Liste der in diesem Repository enthaltenen Daten ist in folgender Datei hinterlegt:
-
-> [datapackage.json](https://github.com/robert-koch-institut/Observatorium_serologischer_Studien_zu_SARS-CoV-2_in_Deutschland/tree/main/datapackage.json)
-
-Für tabellarische Daten definieren wir zusätzlich ein [Table Schema](https://datapackage.org/standard/table-schema/), das die Struktur der Tabellen beschreibt, einschließlich Spaltennamen, Datentypen und Validierungsregeln. Diese Schema-Dateien finden sich unter:
-
-> [Metadaten/schemas/](https://github.com/robert-koch-institut/Observatorium_serologischer_Studien_zu_SARS-CoV-2_in_Deutschland/tree/main/Metadaten/schemas) 
 
 
 
