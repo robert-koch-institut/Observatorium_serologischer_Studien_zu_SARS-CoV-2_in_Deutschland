@@ -2,6 +2,7 @@
 
 
 Documentation  
+
 # Observatory of serological studies on SARS-CoV-2 in Germany
 
 <br> 
@@ -20,7 +21,9 @@ Documentation
 <br> 
 
 **Cite**  
+<!-- CITATION_START: {"citation_style": "apa"} -->
 Neuhauser, H., Buttmann-Schweiger, N., Fiebig, J., Poethko-Müller, C., Prütz, F., Sarganas Margolis, G., Thamm, R., & Zimmermann, M. (2022). Observatory of serological studies on SARS-CoV-2 in Germany [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.7043025](https://doi.org/10.5281/zenodo.7043025)
+<!-- CITATION_END -->
 
 
 <br>
@@ -30,15 +33,17 @@ The project "Observatory of serological studies on SARS-CoV-2 in Germany" of the
 
 <br>
 
-**Table of Content**
+**Table of Content**  
+
 <!-- TOC_START: {"heading_depth": 2} -->
-  - [Information on the research project and context of origin](#information-on-the-research-project-and-context-of-origin)
-  - [Content and structure of the research project](#content-and-structure-of-the-research-project)
-  - [Content and structure of the data set](#content-and-structure-of-the-data-set)
-  - [Guidelines for reuse of the data](#guidelines-for-reuse-of-the-data)
+  - [Information on the research project and context of origin](#information-on-the-research-project-and-context-of-origin)  
+  - [Content and structure of the research project](#content-and-structure-of-the-research-project)  
+  - [Content and structure of the data set](#content-and-structure-of-the-data-set)  
+  - [Guidelines for reuse of the data](#guidelines-for-reuse-of-the-data)  
 <!-- TOC_END -->
 
 <br>
+
 <!-- HEADER_END -->
 
 <br>
@@ -100,7 +105,7 @@ Information and results of epidemiological studies on the seroprevalence of SARS
 
 Search and search strategy: (We searched for...) Seroepidemiological studies on SARS-CoV-2 in Germany that can be found as peer-reviewed publication in literature databases (PubMed and Embase). We also searched for manuscripts published on preprint servers prior to peer review (medRxiv, bioRxiv, arXiv, ChemRxiv, preprints.org, ResearchSquare, Social Science Research Network (SSRN)).
 
-After an initial search for SARS-CoV-2 and related terms, the defined search terms in the titles of the publications are “sero OR antibod OR immune OR immunity OR immunology OR fatality rate OR population-based OR cohort study OR dried blood OR test strategy”.
+After an initial search for SARS-CoV-2 and related terms, the defined search terms in the titles of the publications are "sero OR antibod OR immune OR immunity OR immunology OR fatality rate OR population-based OR cohort study OR dried blood OR test strategy".
 
 We also browsed reports and notifications from WHO, the European Centre for Disease Prevention and Control (ECDS) and the Center for Disease Control and Prevention (CDC) and trial registries (Deutsches Register Klinischer Studien, ClinicalTrials.gov) and followed media coverage as well
 
@@ -187,14 +192,13 @@ The data set contains the following variables and their characteristics:
 
 #### Data formatting
 
-The data of the study are contained in the dataset as a comma-separated .csv file. The character set used in the .csv file is UTF-8. The separator of the individual values is a comma ",".
+The data of the study are contained in the dataset as a comma-separated .csv file. The character set used in the .csv file is UTF-8. The separator of the individual values is a comma `,`.
 
 - Character set: UTF-8
-- .csv separator: Comma ","
+- .csv separator: Comma `,`
 
 
 <!-- FOOTER_START: {"lang": "en"} -->
-
 
 ### Metadata
 
@@ -202,7 +206,7 @@ To increase findability, the provided data are described with metadata. The Meta
 
 > [Metadaten/](https://github.com/robert-koch-institut/Observatorium_serologischer_Studien_zu_SARS-CoV-2_in_Deutschland/tree/main/Metadaten/)
 
-Versioning and DOI assignment are performed via [Zenodo.org](https://zenodo.org). The metadata prepared for import into Zenodo are stored in the [zenodo.json](https://github.com/robert-koch-institut/Observatorium_serologischer_Studien_zu_SARS-CoV-2_in_Deutschland/blob/main/Metadaten/zenodo.json). Documentation of the individual metadata variables can be found at https://developers.zenodo.org/representation.
+Versioning and DOI assignment are performed via [Zenodo.org](https://zenodo.org). The metadata prepared for import into Zenodo are stored in the [zenodo.json](https://github.com/robert-koch-institut/Observatorium_serologischer_Studien_zu_SARS-CoV-2_in_Deutschland/blob/main/Metadaten/zenodo.json). Documentation of the individual metadata variables can be found at [https://developers.zenodo.org/representation](https://developers.zenodo.org/#representation).
 
 > [Metadaten/zenodo.json](https://github.com/robert-koch-institut/Observatorium_serologischer_Studien_zu_SARS-CoV-2_in_Deutschland/blob/main/Metadaten/zenodo.json)
 
@@ -213,8 +217,8 @@ The zenodo.json includes the publication date and the date of the data status in
     {
       "start": "2023-09-11T15:00:21+02:00",
       "end": "2023-09-11T15:00:21+02:00",
-      "type": "Collected",
-      "description": "Date when the dataset was created"
+      "type": "Created",
+      "description": "Date when the published data was created"
     }
   ],
 ```
@@ -226,10 +230,12 @@ The zenodo.json includes the publication date and the date of the data status in
 
 Open data from the RKI are available on [Zenodo.org](http://Zenodo.org/), [GitHub.com](http://GitHub.com/), [OpenCoDE](https://gitlab.opencode.de), and [Edoc.rki.de](http://Edoc.rki.de/):
 
-- https://zenodo.org/communities/robertkochinstitut
-- https://github.com/robert-koch-institut
-- https://gitlab.opencode.de/robert-koch-institut
-- https://edoc.rki.de/
+- [https://zenodo.org/communities/robertkochinstitut](https://zenodo.org/communities/robertkochinstitut)
+- [https://github.com/robert-koch-institut](https://github.com/robert-koch-institut)
+- [https://gitlab.opencode.de/robert-koch-institut](https://gitlab.opencode.de/robert-koch-institut)
+- [https://edoc.rki.de/](https://edoc.rki.de/)
+
+
 
 ### License
 

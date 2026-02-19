@@ -2,6 +2,7 @@
 
 
 Dokumentation  
+
 # Observatorium serologischer Studien zu SARS-CoV-2 in Deutschland
 
 <br> 
@@ -25,22 +26,25 @@ Dokumentation
 <br> 
 
 **Zitieren**  
+<!-- CITATION_START: {"citation_style": "apa"} -->  
 Neuhauser, H., Poethko-Müller, C., Sarganas Margolis, G., Thamm, R., Zimmermann, M., Prütz, F., Buttmann-Schweiger, N., & Fiebig, J. (2022). Observatorium serologischer Studien zu SARS-CoV-2 in Deutschland [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.7043025](https://doi.org/10.5281/zenodo.7043025)
+<!-- CITATION_END -->
+
 
 <br>
-
 
 **Zusammenfassung**    
 Das Projekt "Observatorium serologischer Studien zu SARS-CoV-2 in Deutschland" des Robert Koch-Instituts zielte auf die systematische Erfassung, Auswertung und Bereitstellung von seroepidemiologischen Studien zur SARS-CoV-2-Seroprävalenz in Deutschland ab dem Frühjahr 2020 bis Herbst 2022. Durch kontinuierliche Recherche in wissenschaftlichen Datenbanken, Studienregistern und Medienquellen wurden relevante Studien identifiziert, ihre Ergebnisse extrahiert und zentral dokumentiert. Der Datensatz umfasst strukturierte Informationen zu Studiendesigns, Populationen, Erhebungszeiträumen, Antikörpertests, Seroprävalenzraten sowie Untererfassungsfaktoren. Er ermöglicht somit eine vergleichende Analyse der SARS-CoV-2-Durchseuchung in verschiedenen Bevölkerungsgruppen und Zeiträumen. Die Ergebnisse dienen u. a. der Einschätzung von Dunkelziffern und der Testgüte-bereinigten Prävalenz. 
 
 <br>
 
-**Inhaltsverzeichnis** 
+**Inhaltsverzeichnis**  
+
 <!-- TOC_START: {"heading_depth": 2} -->
-  - [Informationen zum Datensatz und zum Entstehungskontext](#informationen-zum-datensatz-und-zum-entstehungskontext)
-  - [Inhalt und Aufbau des Forschungsprojekts](#inhalt-und-aufbau-des-forschungsprojekts)
-  - [Inhalt und Aufbau des Datensatzes](#inhalt-und-aufbau-des-datensatzes)
-  - [Hinweise zur Nachnutzung der Daten](#hinweise-zur-nachnutzung-der-daten)
+  - [Informationen zum Datensatz und zum Entstehungskontext](#informationen-zum-datensatz-und-zum-entstehungskontext)  
+  - [Inhalt und Aufbau des Forschungsprojekts](#inhalt-und-aufbau-des-forschungsprojekts)  
+  - [Inhalt und Aufbau des Datensatzes](#inhalt-und-aufbau-des-datensatzes)  
+  - [Hinweise zur Nachnutzung der Daten](#hinweise-zur-nachnutzung-der-daten)  
 <!-- TOC_END -->
 
 <br>
@@ -60,17 +64,17 @@ Das Projekt "Observatorium serologischer Studien zu SARS-CoV-2 in Deutschland" d
 
 Die seit 2019 auftretende Infektionskrankheit COVID-19, hervorgerufen durch das neuartige SARS-CoV-2-Virus, führte zu gesundheitspolitischen und gesamtgesellschaftlichen Herausforderungen. Um geeignete Maßnahmen zur Eindämmung der Pandemie ergreifen zu können und neue Erkenntnisse über die Pandemie zu gewinnen, gibt es vermehrt Forschungsbedarfe zu COVID-19. Ein Ansatzpunkt hierfür sind die gewonnenen Blutproben von infizierten sowie von nicht infizierten Personen, die in Laboren auf Antikörper gegen das SARS-CoV-2-Virus getestet und analysiert werden. Sie geben Aufschluss über den Anteil der Bevölkerung, der bereits eine Infektion mit SARS-CoV-2 durchgemacht hat, und schließen dabei nicht erkannte Infektionen (Untererfassung) ein.
 
-Das Projekt „Observatorium serologischer Studien zu SARS-CoV-2 in Deutschland" (SERO-OBS Corona) gibt eine Übersicht zu Antikörper-Studien (sogenannte seroepidemiologische Studien) in Deutschland. Die seroepidemiologischen Studien basieren auf Blutproben von Bürgerinnen und Bürgern, die zu unterschiedlichen Zeitpunkten der Pandemie auf Antikörper gegen das SARS-CoV-2-Virus getestet wurden. Dabei sollen z. B. folgende Fragen beantwortet werden: Wie ist die Häufigkeit von SARS-CoV-2-Infektionen in verschiedenen Bevölkerungsgruppen? Wie hoch ist der Untererfassungsfaktor, der zeigt, wie viel Mal mehr Infektionen im Vergleich zu den bislang bekannten (gemeldeten) Fällen aufgetreten sind? In dem vorliegenden Projekt werden in Deutschland durchgeführte seroepidemiologische Studien zu SARS-CoV-2 seit dem Frühjahr 2020 über systematische Recherchen in Studienregistern, Literaturdatenbanken einschließlich Vorveröffentlichungen sowie Medienberichten fortlaufend indentifiziert und Studieninformationen sowie Ergebnisübersichten verfügbar gemacht.
+Das Projekt "Observatorium serologischer Studien zu SARS-CoV-2 in Deutschland" (SERO-OBS Corona) gibt eine Übersicht zu Antikörper-Studien (sogenannte seroepidemiologische Studien) in Deutschland. Die seroepidemiologischen Studien basieren auf Blutproben von Bürgerinnen und Bürgern, die zu unterschiedlichen Zeitpunkten der Pandemie auf Antikörper gegen das SARS-CoV-2-Virus getestet wurden. Dabei sollen z. B. folgende Fragen beantwortet werden: Wie ist die Häufigkeit von SARS-CoV-2-Infektionen in verschiedenen Bevölkerungsgruppen? Wie hoch ist der Untererfassungsfaktor, der zeigt, wie viel Mal mehr Infektionen im Vergleich zu den bislang bekannten (gemeldeten) Fällen aufgetreten sind? In dem vorliegenden Projekt werden in Deutschland durchgeführte seroepidemiologische Studien zu SARS-CoV-2 seit dem Frühjahr 2020 über systematische Recherchen in Studienregistern, Literaturdatenbanken einschließlich Vorveröffentlichungen sowie Medienberichten fortlaufend indentifiziert und Studieninformationen sowie Ergebnisübersichten verfügbar gemacht.
 
 Die Ergebnisse des Projektes SERO-OBS-Corona werden auf der Webseite www.rki.de/covid-19-ak-studien, auf Deutsch, sowie der Webseite www.rki.de/covid-19-serostudies-germany, auf Englisch, bereitgestellt und regelmäßig aktualisiert.
 
 ### Administrative und organisatorische Angaben
 
-Im Projekt „Observatorium serologischer Studien zu SARS-CoV-2 in Deutschland" (SERO-OBS Corona) wirken verschiedene Fachgebiete der [Abteilung 2 | Epidemiologie und Gesundheitsmonitoring](https://www.rki.de/abt2) und [Abteilung 3 | Infektionsepidemiologie](https://www.rki.de/abt3) des Robert Koch-Instituts mit. Wir bedanken uns bei dem Team von SeroTracker ([serotracker.com](serotracker.com)) der Universität Calgary für hilfreiche Diskussionen und Beiträge zur Operationalisierung der Studiendatenbank sowie für die initiale Programmierung der interaktiven Graphiken.
+Im Projekt "Observatorium serologischer Studien zu SARS-CoV-2 in Deutschland" (SERO-OBS Corona) wirken verschiedene Fachgebiete der [Abteilung 2 | Epidemiologie und Gesundheitsmonitoring](https://www.rki.de/abt2) und [Abteilung 3 | Infektionsepidemiologie](https://www.rki.de/abt3) des Robert Koch-Instituts mit. Wir bedanken uns bei dem Team von SeroTracker ([serotracker.com](serotracker.com)) der Universität Calgary für hilfreiche Diskussionen und Beiträge zur Operationalisierung der Studiendatenbank sowie für die initiale Programmierung der interaktiven Graphiken.
 
-Inhaltliche Fragen bezüglich der Datenextraktion können direkt an das Team des Projektes SERO-OBS-Corona unter [COVID19_AK@rki.de](mailto:COVID19_AK@rki.de) gestellt werden. Die Veröffentlichung der Daten sowie das Qualitätsmanagement der (Meta-)Daten erfolgen durch das Fachgebiet [MF 4 | Forschungsdaten- und Infromationsmanagement](https://www.rki.de/mf4). Fragen zum Datenmanagement und zur Publikationsinfrastruktur können an das Open Data Team des Fachgebiets MF4 unter [OpenData@rki.de](mailto:OpenData@rki.de) gerichtet werden.
+Inhaltliche Fragen bezüglich der Datenextraktion können direkt an das Team des Projektes SERO-OBS-Corona unter [COVID19_AK@rki.de](mailto:COVID19_AK@rki.de) gestellt werden. Die Veröffentlichung der Daten sowie das Qualitätsmanagement der (Meta-)Daten erfolgen durch das Fachgebiet [MF 4 | Forschungsdaten- und Informationsmanagement](https://www.rki.de/mf4). Fragen zum Datenmanagement und zur Publikationsinfrastruktur können an das Open Data Team des Fachgebiets MF4 unter [OpenData@rki.de](mailto:OpenData@rki.de) gerichtet werden.
 
-Das Projekt „Observatorium serologischer Studien zu SARS-CoV-2 in Deutschland (SERO-OBS Corona)“ wird durch das Bundesministerium für Gesundheit gefördert.
+Das Projekt "Observatorium serologischer Studien zu SARS-CoV-2 in Deutschland (SERO-OBS Corona)" wird durch das Bundesministerium für Gesundheit gefördert.
 
 ## Inhalt und Aufbau des Forschungsprojekts
 
@@ -82,7 +86,7 @@ Diese Studien werden seit dem Frühjahr 2020 über systematische Recherchen in S
 
 Es erfolgt eine kritische Bewertung der Studien, die Extraktion aggregierter Daten aus bereits vorliegenden Studien aus Deutschland sowie deren Aufbereitung für Analysen, für eine interaktive Karte, für ein Dashboard und für die Aktualisierung eines Factsheets zu den Ergebnissen seroepidemiologischer SARS-CoV-2-Studien in der Allgemeinbevölkerung in Deutschland. Weiterhin werden Recherchen und Analysen zur Untererfassung und Infection Fatality Rate durchgeführt. Die Ergebnisse des Projektes SERO-OBS-Corona werden auf der Webseite www.rki.de/covid-19-ak-studien auf Deutsch sowie der Webseite www.rki.de/covid-19-serostudies-germany auf Englisch bereitgestellt und regelmäßig aktualisiert.
 
-Das Projekt „Observatorium serologischer Studien zu SARS-CoV-2 in Deutschland" (SERO-OBS Corona) gibt somit einen Überblick über in Deutschland durchgeführte seroepidemiologische Studien zu SARS-CoV-2. Folgende Veröffentlichungen sind im Projekt entstanden:
+Das Projekt "Observatorium serologischer Studien zu SARS-CoV-2 in Deutschland" (SERO-OBS Corona) gibt somit einen Überblick über in Deutschland durchgeführte seroepidemiologische Studien zu SARS-CoV-2. Folgende Veröffentlichungen sind im Projekt entstanden:
 
 > Neuhauser H, et. al : Seroepidemiologische Studien zu SARS-CoV-2 in Stichproben der Allgemeinbevölkerung und bei Blutspenderinnen und Blutspendern in Deutschland – Ergebnisse bis August 2021 Epid Bull 2021;37:3 -12 | [DOI: 10.25646/8999](https://doi.org/10.25646/8999)  
 
@@ -107,7 +111,7 @@ Informationen und Ergebnisse epidemiologischer Studien zur Seroprävalenz von SA
 
 Recherche und Suchstrategie: Seroepidemiologische Studien zu SARS-CoV-2 in Deutschland, die als peer-reviewte Publikation (mit wissenschaftlicher Begutachtung) in Literaturdatenbanken auffindbar sind (PubMed und Embase). Ebenso gesucht wird nach Manuskripten, die vor dem Peer-Review auf sogenannten Preprint-Servern veröffentlicht wurden (medRxiv, bioRxiv, arXiv, ChemRxiv, preprints.org, ResearchSquare, Social Science Research Network (SSRN)).
 
-Die definierten Suchbegriffe im Titel der Publikationen aus Funden einer ersten Suche nach SARS-CoV-2 und verwandten Begriffen sind „sero OR antibod OR immune OR immunity OR immunology OR fatality rate OR population-based OR cohort study OR dried blood OR test strategy ”.
+Die definierten Suchbegriffe im Titel der Publikationen aus Funden einer ersten Suche nach SARS-CoV-2 und verwandten Begriffen sind "sero OR antibod OR immune OR immunity OR immunology OR fatality rate OR population-based OR cohort study OR dried blood OR test strategy ".
 
 Auch Berichte und Meldungen der WHO, des European Centre for Disease Prevention and Control (ECDC) und des Centers for Disease Control and Prevention (CDC) sowie Studienregister (Deutsches Register Klinischer Studien, ClinicalTrials.gov) wurden durchsucht und die Medienberichterstattung verfolgt.
 
@@ -203,15 +207,13 @@ Die Daten der Studie sind im Datensatz als kommaseparierte .csv Datei enthalten.
 
 <!-- FOOTER_START: {"lang": "de"} -->
 
-
-
 ### Metadaten  
 
 Zur Erhöhung der Auffindbarkeit sind die bereitgestellten Daten mit Metadaten beschrieben. Über GitHub Actions werden Metadaten an die entsprechenden Plattformen verteilt. Für jede Plattform existiert eine spezifische Metadatendatei, diese sind im Metadatenordner hinterlegt:  
 
 > [Metadaten/](https://github.com/robert-koch-institut/Observatorium_serologischer_Studien_zu_SARS-CoV-2_in_Deutschland/tree/main/Metadaten/) 
 
-Versionierung und DOI-Vergabe erfolgt über [Zenodo.org](https://zenodo.org). Die für den Import in Zenodo bereitgestellten Metadaten sind in der [zenodo.json](https://github.com/robert-koch-institut/Observatorium_serologischer_Studien_zu_SARS-CoV-2_in_Deutschland/blob/main/Metadaten/zenodo.json) hinterlegt. Die Dokumentation der einzelnen Metadatenvariablen ist unter https://developers.zenodo.org/#representation nachlesbar.
+Versionierung und DOI-Vergabe erfolgt über [Zenodo.org](https://zenodo.org). Die für den Import in Zenodo bereitgestellten Metadaten sind in der [zenodo.json](https://github.com/robert-koch-institut/Observatorium_serologischer_Studien_zu_SARS-CoV-2_in_Deutschland/blob/main/Metadaten/zenodo.json) hinterlegt. Die Dokumentation der einzelnen Metadatenvariablen ist unter [https://developers.zenodo.org/#representation](https://developers.zenodo.org/#representation) nachlesbar.
  
 > [Metadaten/zenodo.json](https://github.com/robert-koch-institut/Observatorium_serologischer_Studien_zu_SARS-CoV-2_in_Deutschland/blob/main/Metadaten/zenodo.json)  
 
@@ -222,8 +224,8 @@ In der zenodo.json ist neben dem Publikationsdatum (`"publication_date"`) auch d
     {
       "start": "2023-09-11T15:00:21+02:00",
       "end": "2023-09-11T15:00:21+02:00",
-      "type": "Collected",
-      "description": "Date when the Dataset was created"
+      "type": "Created",
+      "description": "Date when the published data was created"
     }
   ],
 ```    
@@ -235,11 +237,13 @@ In der zenodo.json ist neben dem Publikationsdatum (`"publication_date"`) auch d
 
 Offene Forschungsdaten des RKI werden auf [Zenodo.org](http://Zenodo.org/), [GitHub.com](http://GitHub.com/), [OpenCoDE](https://gitlab.opencode.de) und [Edoc.rki.de](http://Edoc.rki.de/) bereitgestellt:  
 
-- https://zenodo.org/communities/robertkochinstitut  
-- https://github.com/robert-koch-institut  
-- https://gitlab.opencode.de/robert-koch-institut  
-- https://edoc.rki.de/  
- 
+- [https://zenodo.org/communities/robertkochinstitut](https://zenodo.org/communities/robertkochinstitut)  
+- [https://github.com/robert-koch-institut](https://github.com/robert-koch-institut)  
+- [https://gitlab.opencode.de/robert-koch-institut](https://gitlab.opencode.de/robert-koch-institut)  
+- [https://edoc.rki.de/](https://edoc.rki.de/) 
+
+
+
 ### Lizenz  
 
 Der Datensatz "Observatorium serologischer Studien zu SARS-CoV-2 in Deutschland" ist lizenziert unter der [Creative Commons Namensnennung 4.0 International Public License | CC-BY 4.0 International](https://creativecommons.org/licenses/by/4.0/deed.de).  
